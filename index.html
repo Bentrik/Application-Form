@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Application design Z</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header">
+                <nav>
+                    <h2>Shyamal Tours & Travels</h2>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Places</a></li>
+                        <li><a href="#">Register Here </a></li>
+                        <li><a href="#">Charges</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="register">
+                <h1>Register here</h1>
+                <form id="register" method="post">
+                    <label>First Name:</label>
+                    <br>
+                    <input type="text" name="fname" id="name" class="inputbox " placeholder="Enter First Name">
+                    <br><br>
+                    <label>Last Name:</label>
+                    <br>
+                    <input type="text" name="lname" id="name" class="inputbox " placeholder="Enter Last Name">
+                    <br><br>
+                    <label>Your Age:</label>
+                    <br>
+                    <input type="number" name="age" id="name" class="inputbox " placeholder="Enter Your Age">
+                    <br><br>
+                    <label>Email:</label>
+                    <br>
+                    <input type="text" name="email" id="name" class="inputbox " placeholder="Enter Email">
+                    <br><br>
+                    <label>Gender:</label>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="gender" id="male" >
+                    &nbsp;
+                    <span id="male">Male</span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="gender" id="female" >
+                    &nbsp;
+                    <span id="female">Female</span>
+                    <br><br>
+                    <label>Known Languages:</label>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="lang" id="hindi">
+                    &nbsp;
+                    <span id="hindi">Hindi</span>
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="lang" id="english">
+                    &nbsp;
+                    <span id="english">English</span>
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="lang" id="urdu">
+                    &nbsp;
+                    <span id="urdu">Urdu</span>
+                    <br><br>
+                    <label>Mode of Transport:</label>
+                    <br>
+                    <!-- <input type="text" name="mode" id="tansport"> -->
+                    <select name="mode" required id="tansport" class="submit">
+                        <option value="">None</option>
+                        <option value="car">Car</option>
+                        <option value="bus">Bus</option>
+                        <option value="horse">Horse</option>
+                        <option value="ropeway">Ropeway</option>
+                    </select>
+                    <br><br>
+                    <label>Destinations to Visit:</label>
+                    <br>
+                    <select name="dest" required id="visit" class="submit">
+                        <option value="">None</option>
+                        <option value="udaipur">Udaipur</option>
+                        <option value="jaipur">Jaipur</option>
+                        <option value="jodhpur">Jodhpur</option>
+                        <option value="bikaneer">Bikaneer</option>
+                        <option value="mtabu">Mt Abu</option>
+                        <option value="ajmer">Ajmer</option>
+                    </select>
+                    <br><br>
+                    <label>Date:</label>
+                    <br>
+                    <input type="date" name="dt" placeholder="Date" class="submit">
+                    <br><br>
+                    <input type="submit" name="submit" value="Submit" id="submit" class="submit" >
+
+
+
+
+                </form>
+            </div>
+            <div class="footer">
+            </div>                     
+            
+        </div>
+        <footer>
+            <p>Do You Have Any Doubts??<br>Contact us  <a href="mailto:sgupta75858@gmail.com"><br>shyamlaltour@gmail.com</a> </p>
+        </footer>
+
+    </body>
+
+</html>
